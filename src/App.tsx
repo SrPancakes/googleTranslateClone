@@ -14,8 +14,8 @@ function App() {
       <button onClick={() =>
         setFromLanguage('es')}>
         Cambiar a español
-        {fromLanguage}
       </button>
+      {fromLanguage}
     </div>
   )
 }
